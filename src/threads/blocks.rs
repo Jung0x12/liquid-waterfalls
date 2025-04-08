@@ -96,7 +96,7 @@ fn generate_skip_outpoint() -> HashSet<OutPoint> {
     skip_outpoint.insert(outpoint(s, 0));
 
     // policy asset emission in regtest
-    let s = "bdb0a795c9b095d70ef1527d7ffd38aeedd3cd3acd3b04a566f018bd54318e90";
+    let s = "fab6acd4aabd2355b10415db6f6096936cc25c7d3cd93eb84f3475458536a522";
     skip_outpoint.insert(outpoint(s, 0));
 
     skip_outpoint
